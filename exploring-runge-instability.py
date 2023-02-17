@@ -2,7 +2,7 @@ import array
 import numpy
 import scipy 
 import math
-import matplotlib
+import matplotlib.pyplot as plt
 
 # Debunking flat-earthers claiming that "if the Earth was a globe then the drop to the horizon would be
 # 8 inches per mile squared"
@@ -26,7 +26,6 @@ import matplotlib
 
 miles_to_inches = 63360
 earth_radius = 3958.8 # mi
-domain = numpy.array([inf, sup])
 resolution = 1000
 
 
@@ -34,7 +33,11 @@ resolution = 1000
 def flat_claim(radius, d_span, resolution):
     d_space = numpy.linspace(d_span[0], d_span[1], resolution)
     vdrop_space = 8 * (d_space ** 2)
-    
+    plt.plot(d_space, vdrop_space)
+    plt.xlabel('Distance on the Earth Surface')
+    plt.ylabel('Vertical drop')
+    plt.title('Vertical drop according to flat earthers')
+    plt.show()
         
 
 
