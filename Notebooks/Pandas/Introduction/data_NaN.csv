@@ -1,0 +1,12 @@
+Name,Gender,Age,Income,Education,Job,Location,Marital Status,Children,Savings
+John,Male,32,50000,Bachelor's degree,Software Developer,California,Married,2,25000
+Samantha,Female,27,35000,Associate's degree,Marketing Coordinator,New York,Single,0,5000
+Peter,Male,45,80000,Master's degree,Manager,Texas,Married,3,70000
+Emily,Female,38,NaN,Bachelor's degree,Teacher,Florida,Married,2,NaN
+Jacob,Male,29,45000,Associate's degree,Graphic Designer,Colorado,Single,0,10000
+Ava,Female,26,32000,NaN,Administrative Assistant,Ohio,Single,1,5000
+Mark,Male,41,70000,Master's degree,Financial Analyst,New Jersey,Married,2,55000
+Olivia,Female,33,55000,Bachelor's degree,Journalist,Illinois,Single,0,NaN
+Noah,Male,36,62000,Master's degree,Engineer,Georgia,Married,1,45000
+Sophia,Female,31,48000,Associate's degree,Human Resources Coordinator,California,Single,0,8000
+
